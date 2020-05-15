@@ -15,7 +15,7 @@ BODY:
 [
   {
     "name":"jg1",
-    "symbol":"lizad"
+    "symbol":"lizard"
   },
   {
     "name":"jg2",
@@ -23,4 +23,5 @@ BODY:
   }
 ]
 
-I suggest https://reqbin.com/ to test the api
+I suggest https://reqbin.com/ to test the api or Postman, 
+To fix in postman go to the Settings -> General and turn off SSL certificate verification.
