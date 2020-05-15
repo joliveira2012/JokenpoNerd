@@ -13,6 +13,13 @@ namespace Jokenpo.Controllers
     [ApiController]
     public class JokenpoController : ControllerBase
     {
+        // GET: api/Jokenpo
+        [HttpGet]
+        public string Get()
+        {
+            return "Just API";
+        }
+
         // POST: api/Jokenpo
         [HttpPost]
         public string Post([FromBody] List<Jokenpo> jokenpo)
